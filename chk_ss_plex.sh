@@ -16,7 +16,7 @@ NOW="$(date)"
 
 if [ -n "$FIRST_FAILED_TITLE" ]
 then
-   echo "[$NOW] First failed title.. consider retrying: $FAILED_TITLE"
+   echo "[$NOW] First failed title.. consider retrying: $FIRST_FAILED_TITLE"
 fi
 
 if [ $WGET_RUNNING -eq 1 ]
